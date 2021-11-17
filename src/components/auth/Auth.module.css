@@ -1,0 +1,75 @@
+.Auth {
+  width: 100vw;
+  height: 100vh;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.486);
+  border: 1px solid white;
+  overflow: hidden;
+}
+.title {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  text-transform: capitalize;
+}
+.title span:nth-child(1) {
+  color: red;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+.title span:nth-child(2) {
+  color: red;
+  margin-right: 1rem;
+  font-size: 0.9rem;
+  margin-top: -0.5rem;
+}
+.left {
+  width: 50%;
+  /* height: 200px; */
+  background-color: red;
+}
+.right {
+  width: 50%;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.right > input {
+  padding: 0.5rem;
+  outline: none;
+  margin: 1rem 0;
+  border-radius: 5px;
+  border: none;
+  height: 40px;
+}
+
+.right button {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin-top: 1.5rem;
+  background-color: rgb(236, 62, 62);
+  padding: 0.5rem 0;
+  color: white;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+.right button:hover {
+  background-color: rgba(236, 62, 62, 0.774);
+}
+.right > span {
+  color: blue;
+  text-decoration: underline;
+  font-size: 0.9rem;
+  margin: 0 auto;
+}
